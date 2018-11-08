@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>  
+  <head>
+    <meta charset="UTF-8" />
+	<style>
+		.key	{background-color:lightgrey;}
+	</style>
+    <title>User manual for Bluedot Dieburg</title>
+  </head>
+  <body>
+	<h1>Bluedot Dieburg</h1>
+	
+		<h2>Tuning into a station</h2>
+		<p>There are various ways of tuning into a station.</p>
+		
+		<h3>Automatic station seek tuning</h3>
+			<p>Press the <span class="key">&uarr;</span> or <span class="key">&darr;</span> button.</p>
+			<p>The radio tunes into the next receiavable station</p>
+		
+		<h3>Tuning into stations manually</h3>
+			<p>You can also tune into stations manually.</p>
+			<p>Press the <span class="key">&larr;</span> or <span class="key">&rarr;</span> button.</p>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+<h3>Tuning into stations manually</h3>
+			<p>You can also tune into stations manually.</p>
+			<p>Press <span class="key">Bluedot_Button_Type_Left</span> or <span class="key">Bluedot_Button_Type_Right</span>,
+				the frequency will change in short intervals downwards or upwards.
+			</p>

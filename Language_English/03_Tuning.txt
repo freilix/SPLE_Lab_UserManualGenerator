@@ -1,0 +1,8 @@
+<h4>Start the automatic station search function by pressing</h4>
+	<p>
+		<span class="key">&uarr;</span> (up) or 
+		<span class="key">&darr;</span> (down).
+	</p>
+	<p>
+		The station search will stop at the next station within reception range.
+	</p>

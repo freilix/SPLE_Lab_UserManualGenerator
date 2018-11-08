@@ -1,0 +1,3 @@
+<p>
+	Wenn Sie <span class="key">Bluedot_Button_Type_Left</span> oder <span class="key">Bluedot_Button_Type_Right</span> gedrückt halten, beschleunigt sich der Frequenzlauf.
+</p>

@@ -1,0 +1,5 @@
+<h3>Manuelles Auswählen des Senders </h3>
+			<p>Sie können ihren Sender auch manuell anwählen.</p>
+			<p>Drücken Sie dafür <span class="key">Bluedot_Button_Type_Left</span> oder <span class="key">Bluedot_Button_Type_Right</span>. 
+			Die Frequenz wird in kleinen Schritten vorwärts bzw. rückwärts erhöht.
+			</p>

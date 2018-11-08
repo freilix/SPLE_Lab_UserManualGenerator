@@ -1,0 +1,3 @@
+<p>
+	If you hold <span class="key">Bluedot_Button_Type_Left</span> or <span class="key">Bluedot_Button_Type_Right</span> down, the frequency scan will accelerate.
+</p>

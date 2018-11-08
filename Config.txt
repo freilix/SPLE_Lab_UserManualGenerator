@@ -1,0 +1,26 @@
+#define Bluedot_Manual_Language_English 0
+#define Bluedot_Manual_Language_German 1
+
+#ifdef DARMSTADT
+	#define Bluedot_City_Name Darmstadt
+	#define HoldTuning
+	#define Bluedot_Button_Type_Left &lt;&lt;
+	#define Bluedot_Button_Type_Right &gt;&gt;
+	#define Bluedot_Manual_Language Bluedot_Manual_Language_English
+#endif
+
+#ifdef DIEBURG
+	#define Bluedot_City_Name Dieburg
+	#define Bluedot_Button_Type_Left &larr;
+	#define Bluedot_Button_Type_Right &rarr;
+	#define Bluedot_Manual_Language Bluedot_Manual_Language_German
+#endif
+
+#ifdef GRIESHEIM
+	#define Bluedot_City_Name Griesheim
+	#define HoldTuning
+	#define Bluedot_Button_Type_Left &lt;&lt;
+	#define Bluedot_Button_Type_Right &gt;&gt;
+	#define NumericKeypadSearch
+	#define Bluedot_Manual_Language Bluedot_Manual_Language_English
+#endif

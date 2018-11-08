@@ -1,0 +1,8 @@
+<h4>Starte den automatischen Sendersuchlauf durch Drücken von </h4>
+	<p>
+		<span class="key">&uarr;</span> (hoch) oder
+		<span class="key">&darr;</span> (runter).
+	</p>
+	<p>
+		Der Sendersuchlauf stoppt automatisch beim nächsten vorhandenen Sender.
+	</p>

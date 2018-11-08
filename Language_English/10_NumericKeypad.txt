@@ -1,0 +1,2 @@
+<h3>Numeric Keypad</h3>
+			<p>Type the frequence to search for it.</p>

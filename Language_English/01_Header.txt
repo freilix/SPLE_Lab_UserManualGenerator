@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+	<meta charset="UTF-8"/>
+	<style>
+		.key	{background-color:lightgrey;}
+	</style>
+	<title>User manual for Bluedot Bluedot_City_Name</title>
+  </head>
+  <body>
+	<h1>Bluedot Bluedot_City_Name</h1>
+	

@@ -1,0 +1,3 @@
+<h2>Auswahl einer Station</h2>
+		<p>Das Display zeigt den Namen der Station oder (wenn keine Daten empfangen werden) die Frequenz.</p>
+		<p>Es gibt verschiedene Möglichkeiten eine Station auszuwählen:</p>

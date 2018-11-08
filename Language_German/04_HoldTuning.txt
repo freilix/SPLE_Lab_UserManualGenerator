@@ -1,0 +1,3 @@
+<p>
+	Wenn Sie <span class="key">&uarr;</span> oder <span class="key">&darr;</span> gedrückt halten, wird der Sendersuchlauf schneller vorwärts bzw. rückwärts laufen.
+</p>

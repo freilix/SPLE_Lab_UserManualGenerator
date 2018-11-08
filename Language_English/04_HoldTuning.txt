@@ -1,0 +1,3 @@
+<p>
+	If you hold down <span class="key">&uarr;</span> or <span class="key">&darr;</span>, the station search will run forwards or backwards quickly.
+</p>
