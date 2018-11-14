@@ -3,7 +3,7 @@
 In this folder you find 
 - a windows batch file ([createManual.bat](createManual.bat)) that creates the manuals on windows
 - a linux batch file ([createManual.sh](createManual.sh)) that creates the manuals on linux
-- a cpp file ([\_RadioManual.cpp)](\_RadioManual.cpp)) that uses the C-preprocessor to include the txt-files depending on parameters passed
+- a cpp file ([\_RadioManual.cpp](\_RadioManual.cpp)) that uses the C-preprocessor to include the txt-files depending on parameters passed
 - a config file ([Config.txt](Config.txt)) in which the manuals and their specifications are defined
 - a folder with [documentation](/Doku)
 - folders with content in different languages
