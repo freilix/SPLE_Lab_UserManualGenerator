@@ -10,8 +10,8 @@ In this folder you find
 
 ## Start
 It your environment is properly set up you can start the script (.sh or .bat) in a console window as follows
-createManual.bat DARMSTADT darmstadt.html on windows or
-createManual.sh DARMSTADT darmstadt.html on linux
+`createManual.bat DARMSTADT darmstadt.html` on windows or
+`createManual.sh DARMSTADT darmstadt.html` on linux
 
 Be aware that the scripts compare strings. So it is important to use the correct spelling and to take care of uppercase letters.
 
