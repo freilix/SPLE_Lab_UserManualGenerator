@@ -1,6 +1,7 @@
 # SPLE_Lab_UserManualGenerator
 
-In this folder you find 
+In this folder you find
+- a windows executable ([ConfigCreator.exe](ConfigCreator.exe)) that creates configurations in a guided way
 - a windows batch file ([createManual.bat](createManual.bat)) that creates the manuals on windows
 - a linux batch file ([createManual.sh](createManual.sh)) that creates the manuals on linux
 - a cpp file ([\_RadioManual.cpp](\_RadioManual.cpp)) that uses the C-preprocessor to include the txt-files depending on parameters passed
