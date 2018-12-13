@@ -5,13 +5,13 @@ using System.Linq;
 
 namespace SWPLE_Lab8_ATM_Interface
 {
-    class Program
+    public class Program
     {
-        // private static readonly string[] SupportedCultures = { "de-DE", "en-US" };
-    static void Main()
+        public static void Main()
         {
             var german = new LanguageFile("de-DE", 'u', 'v');
             var english = new LanguageFile("en-US", 't', 'x');
+
             var atm = new AtmUserInterface(german, english);
             atm.Start();
         }
