@@ -121,12 +121,12 @@
     <value>Hallo</value>
   </data>
   <data name="NoValidChoice" xml:space="preserve">
-    <value>Das Zeichen {0} steht nicht zur Auswahl!</value>
+    <value>Das Zeichen '{0}' steht nicht zur Auswahl!</value>
   </data>
   <data name="ToExit" xml:space="preserve">
-    <value>{0} zum Verlassen; </value>
+    <value>'{0}' zum Verlassen; </value>
   </data>
   <data name="ToSwitchLanguages" xml:space="preserve">
-    <value>{0} zum Umschalten der Sprache; </value>
+    <value>'{0}' zum Umschalten der Sprache; </value>
   </data>
 </root>

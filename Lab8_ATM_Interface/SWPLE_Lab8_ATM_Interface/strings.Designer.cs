@@ -70,7 +70,7 @@ namespace SWPLE_Lab8_ATM_Interface {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} is no valid choice.
+        ///   Looks up a localized string similar to &apos;{0}&apos; is no valid choice.
         /// </summary>
         internal static string NoValidChoice {
             get {
@@ -79,7 +79,7 @@ namespace SWPLE_Lab8_ATM_Interface {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} to exit; .
+        ///   Looks up a localized string similar to &apos;{0}&apos; to exit; .
         /// </summary>
         internal static string ToExit {
             get {
@@ -88,7 +88,7 @@ namespace SWPLE_Lab8_ATM_Interface {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to {0} to toggle language; .
+        ///   Looks up a localized string similar to &apos;{0}&apos; to toggle language; .
         /// </summary>
         internal static string ToSwitchLanguages {
             get {
