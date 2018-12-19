@@ -70,25 +70,16 @@ namespace SWPLE_Lab8_ATM_Interface {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to is no valid choice.
+        ///   Looks up a localized string similar to {0} is no valid choice.
         /// </summary>
-        internal static string NoValidChoiceEnd {
+        internal static string NoValidChoice {
             get {
-                return ResourceManager.GetString("NoValidChoiceEnd", resourceCulture);
+                return ResourceManager.GetString("NoValidChoice", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string NoValidChoiceStart {
-            get {
-                return ResourceManager.GetString("NoValidChoiceStart", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to to exit.
+        ///   Looks up a localized string similar to {0} to exit; .
         /// </summary>
         internal static string ToExit {
             get {
@@ -97,7 +88,7 @@ namespace SWPLE_Lab8_ATM_Interface {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to to toggle language; .
+        ///   Looks up a localized string similar to {0} to toggle language; .
         /// </summary>
         internal static string ToSwitchLanguages {
             get {

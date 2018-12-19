@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="strings.de.resx" />
+    <EmbeddedResource Include="strings.fr.resx" />
     <EmbeddedResource Include="strings.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>strings.Designer.cs</LastGenOutput>

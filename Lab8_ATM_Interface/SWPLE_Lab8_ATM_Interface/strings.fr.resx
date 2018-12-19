@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Hello" xml:space="preserve">
-    <value>Hallo</value>
+    <value>Bonjour</value>
   </data>
   <data name="NoValidChoice" xml:space="preserve">
-    <value>Das Zeichen {0} steht nicht zur Auswahl!</value>
-  </data>
-  <data name="ToExit" xml:space="preserve">
-    <value>{0} zum Verlassen; </value>
+    <value>Le caractère {0} n'est pas disponible!</value>
   </data>
   <data name="ToSwitchLanguages" xml:space="preserve">
-    <value>{0} zum Umschalten der Sprache; </value>
+    <value>{0} pour changer de langue</value>
+  </data>
+  <data name="ToExit" xml:space="preserve">
+    <value>{0} à quitter;</value>
   </data>
 </root>

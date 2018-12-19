@@ -120,16 +120,13 @@
   <data name="Hello" xml:space="preserve">
     <value>Hello</value>
   </data>
-  <data name="NoValidChoiceEnd" xml:space="preserve">
-    <value>is no valid choice</value>
-  </data>
-  <data name="NoValidChoiceStart" xml:space="preserve">
-    <value />
+  <data name="NoValidChoice" xml:space="preserve">
+    <value>{0} is no valid choice</value>
   </data>
   <data name="ToExit" xml:space="preserve">
-    <value>to exit</value>
+    <value>{0} to exit; </value>
   </data>
   <data name="ToSwitchLanguages" xml:space="preserve">
-    <value>to toggle language; </value>
+    <value>{0} to toggle language; </value>
   </data>
 </root>

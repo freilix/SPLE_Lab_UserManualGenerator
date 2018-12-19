@@ -9,10 +9,11 @@ namespace SWPLE_Lab8_ATM_Interface
     {
         public static void Main()
         {
-            var german = new LanguageFile("de-DE", 'u', 'v');
-            var english = new LanguageFile("en-US", 't', 'x');
+            var german = new LanguageFile("de", 'u', 'v');
+            var english = new LanguageFile("en", 't', 'x');
+            var french = new LanguageFile("fr", 'q', 'w');
 
-            var atm = new AtmUserInterface(german, english);
+            var atm = new AtmUserInterface(german, english, french);
             atm.Start();
         }
     }
@@ -49,18 +50,16 @@ namespace SWPLE_Lab8_ATM_Interface
         {
             GetDebugInformation();
 
-            DoSomething();
+            Run();
 
             Console.ReadKey();
         }
 
-        private void DoSomething()
+        private void Run()
         {
             Console.WriteLine(strings.Hello);
-            Console.Write(@"'" + currentLanguageFile.ButtonToogleLanguage + @"' ");
-            Console.Write(strings.ToSwitchLanguages);
-            Console.Write(@" '" + currentLanguageFile.ButtonExit + @"' ");
-            Console.WriteLine(strings.ToExit);
+            Console.Write(strings.ToSwitchLanguages, currentLanguageFile.ButtonToogleLanguage);
+            Console.WriteLine(strings.ToExit, currentLanguageFile.ButtonExit);
 
             var key = Console.ReadKey();
             Console.WriteLine();
@@ -81,13 +80,11 @@ namespace SWPLE_Lab8_ATM_Interface
             }
             else
             {
-                Console.Write(strings.NoValidChoiceStart);
-                Console.Write(@" '" + key.KeyChar + @"' ");
-                Console.WriteLine(strings.NoValidChoiceEnd);
+                Console.WriteLine(strings.NoValidChoice, key.KeyChar);
             }
 
             Console.WriteLine(separator);
-            DoSomething();
+            Run();
         }
 
         private void GetDebugInformation()
