@@ -8,44 +8,43 @@ namespace SWPLE_Lab8_ATM_Interface
     public class AtmUserInterface
     {
         private readonly LanguageFile[] _supportedCultures;
-        private LanguageFile currentLanguageFile;
-        private int currentLanguageNumber;
+        private LanguageFile _currentLanguageFile;
+        private int _currentLanguageNumber;
         private string separator = "******************";
 
         public AtmUserInterface(params LanguageFile[] supportedCultures)
         {
             _supportedCultures = supportedCultures;
-            currentLanguageFile = supportedCultures.First();
-            currentLanguageNumber = 0;
+            _currentLanguageFile = supportedCultures.First();
+            _currentLanguageNumber = 0;
+
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(_currentLanguageFile.LanguageCode);
+            GetDebugInformation();
         }
 
         public void Start()
         {
-            GetDebugInformation();
-
             Run();
-
-            Console.ReadKey();
         }
 
         private void Run()
         {
             Console.WriteLine(strings.Hello);
-            Console.Write(strings.ToSwitchLanguages, currentLanguageFile.ButtonToogleLanguage);
-            Console.WriteLine(strings.ToExit, currentLanguageFile.ButtonExit);
+            Console.Write(strings.ToSwitchLanguages, _currentLanguageFile.ButtonToogleLanguage);
+            Console.WriteLine(strings.ToExit, _currentLanguageFile.ButtonExit);
 
             var key = Console.ReadKey();
             Console.WriteLine();
 
-            if (key.KeyChar == currentLanguageFile.ButtonToogleLanguage)
+            if (key.KeyChar == _currentLanguageFile.ButtonToogleLanguage)
             {
                 // switch language
-                currentLanguageNumber += 1;
-                currentLanguageNumber %= _supportedCultures.Length;
-                currentLanguageFile = _supportedCultures[currentLanguageNumber];
-                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(currentLanguageFile.LanguageCode);
+                _currentLanguageNumber += 1;
+                _currentLanguageNumber %= _supportedCultures.Length;
+                _currentLanguageFile = _supportedCultures[_currentLanguageNumber];
+                Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(_currentLanguageFile.LanguageCode);
             }
-            else if (key.KeyChar == currentLanguageFile.ButtonExit)
+            else if (key.KeyChar == _currentLanguageFile.ButtonExit)
             {
                 // exit
                 Console.ReadKey();
@@ -62,14 +61,11 @@ namespace SWPLE_Lab8_ATM_Interface
 
         private void GetDebugInformation()
         {
-            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("de-DE");
-            Console.WriteLine(strings.Hello);
-
             foreach (var supportedCulture in _supportedCultures)
             {
                 Console.WriteLine("Supported: " + new CultureInfo(supportedCulture.LanguageCode).DisplayName);
             }
-            Console.WriteLine("Default: " + new CultureInfo(currentLanguageFile.LanguageCode).DisplayName);
+            Console.WriteLine("Default: " + new CultureInfo(_currentLanguageFile.LanguageCode).DisplayName);
             Console.WriteLine(separator);
         }
     }
